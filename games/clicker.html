@@ -110,7 +110,7 @@
 		function checkCookie() {
 			let cookieValue = getCookie("clicks");
 			if (cookieValue != "") {
-				clicks = cookieValue;
+				clicks = Number(cookieValue);
 			} else {
 				clicks = 0;
 			}
