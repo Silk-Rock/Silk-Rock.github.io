@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<style>
+	.banner {
+		text-align: center;
+	}
+
+	html, body {
+		min-height: 100vh;
+		margin: 0;
+	}
+
+	.clickable {
+		margin: 0;
+		width: 100%;
+		min-height: inherit;
+		border-style: double;
+		transition: 0.3s;
+		cursor: pointer;
+	}
+
+	/* Change background color of buttons on hover */
+	button:hover {
+		background-color: #ddd;
+	}
+
+	/* Create an active/current tablink class */
+	button:active {
+		background-color: #ccc;
+	}
+</style>
+<head>
+	<title>Silk Clicker</title>
+</head>
+<body>
+	<button onclick="doClick()" class="clickable" id="button">Click Me</button>
+
+	<script>
+		checkCookie();
+		var messages = new Array();
+		messages[0] = "We all have to start somewhere. (Click me)";
+		messages[1] = "One small step for man, one tiny click for mousekind.";
+		messages[3333333] = "Sail the seven threes.";
+		renderClicks();
+
+		function doClick() {
+			clicks += 1;
+			renderClicks();
+			d = new Date();
+			d.setTime(d.getTime() + (365 * 24 * 60 * 60 * 1000));
+			var expires = "expires=" + d.toUTCString();
+			document.cookie = "clicks=" + clicks + ";" + expires + ";";
+		}
+
+		function renderClicks() {
+			document.getElementById("button").innerHTML = "<p>" + clicks + "</p>";
+			if (messages[clicks]) {
+				document.getElementById("button").innerHTML += "<p>" + messages[clicks] + "</p>";
+			}
+			else {
+				document.getElementById("button").innerHTML += "...";
+			}
+		}
+
+		function setCookie(cname, cvalue, exdays) {
+			const d = new Date();
+			d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+			let expires = "expires=" + d.toUTCString();
+			document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+		}
+
+		function getCookie(cname) {
+			let name = cname + "=";
+			let decodedCookie = decodeURIComponent(document.cookie);
+			let ca = decodedCookie.split(';');
+			for (let i = 0; i < ca.length; i++) {
+				let c = ca[i];
+				while (c.charAt(0) == ' ') {
+					c = c.substring(1);
+				}
+				if (c.indexOf(name) == 0) {
+					return c.substring(name.length, c.length);
+				}
+			}
+			return 0;
+		}
+
+		function checkCookie() {
+			let cookieValue = getCookie("clicks");
+			if (cookieValue != "") {
+				clicks = cookieValue;
+			} else {
+				clicks = 0;
+			}
+		}
+	</script>
+</body>
