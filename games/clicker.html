@@ -174,7 +174,9 @@
 
 		messages[149] = "Squares after squares";
 
-		messages[151] = "Newfangled pokemans";
+        messages[151] = "Newfangled pokemans";
+
+        messages[153] = "Friends, haven't you any fish?";
 
 		messages[169] = "13²";
 		
@@ -191,7 +193,9 @@
 		messages[235] = "Things that go Boom Boom";
 
 		messages[255] = "8-bit extravaganza";
-		messages[256] = "8-bit extravaganza (for non-programmers)";
+        messages[256] = "8-bit extravaganza (for non-programmers)";
+
+        messages[265] = "Fishy ratios";
 
 		messages[270] = "Baby bones";
 
@@ -246,7 +250,7 @@
 		messages[668] = "Hell is very Warm.";
 		messages[669] = "The nice part of Hell.";
 		messages[670] = "Hell is reminding me of Jeremy Zucker";
-		messages[671] = "";
+		messages[671] = "Magic constant for an 11x11 magic square";
 		messages[672] = "";
 		messages[673] = "";
 		messages[674] = "";
@@ -296,6 +300,7 @@
 
         messages[911] = "Help me!";
 
+        messages[998] = "What's 1 over 998001?";
 		messages[999] = "999 Damage";
 		messages[1000] = "You have clicked a thousand times, and you are still entertained.";
 		
@@ -380,6 +385,15 @@
 			}
 			else {
 				document.getElementById("button").innerHTML += "...";
+			}
+
+            if (clicks >= 671) {
+                document.getElementById("button").style.color = "black";
+                document.getElementById("button").style.backgroundColor = "#ddd";
+            }
+			else if (clicks >= 666) {
+				document.getElementById("button").style.color = "red";
+				document.getElementById("button").style.backgroundColor = "black";
 			}
 		}
 
