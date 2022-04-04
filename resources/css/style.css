@@ -1,0 +1,53 @@
+body {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-color: darkslategray;
+	color: white;
+}
+
+.under-construction {
+	margin-left: 40px;
+	font-style: italic;
+}
+
+.return {
+	margin-left: 40px;
+	font-style: italic;
+}
+
+header {
+	font-style: italic;
+	width: stretch;
+	text-align: center;
+	background-color: white;
+}
+
+.banner {
+	width: 800px;
+	height: 200px;
+}
+
+article {
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+a:link {
+	color: orange;
+}
+
+/* visited link */
+a:visited {
+	color: orangered;
+}
+
+/* selected link */
+a:active {
+	color: rebeccapurple;
+}
