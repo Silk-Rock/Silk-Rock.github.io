@@ -17,8 +17,10 @@ body {
 header {
 	font-style: italic;
 	width: stretch;
-	text-align: center;
+	text-align: left;
 	background-color: white;
+	padding-left: 20px;
+	padding-top: 12px;
 }
 
 .banner {
