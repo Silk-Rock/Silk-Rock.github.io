@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\games"
+    "\\games",
+    "\\resources",
+    "\\resources\\css",
+    "\\resources\\html",
+    "\\resources\\img",
+    "\\resources\\scripts"
   ],
+  "SelectedNode": "\\team.html",
   "PreviewInSolutionExplorer": false
 }

@@ -4,20 +4,23 @@
 		text-align: center;
 	}
 
-	html, body {
-		min-height: 100vh;
-		margin: 0;
-	}
+    html, body {
+        min-height: 100vh;
+        max-height: 100vh;
+        margin: 0;
+        overflow: hidden; /* Hide scrollbars */
+    }
 
-	.clickable {
-		margin: 0;
-		width: 100%;
-		min-height: inherit;
-		border-style: double;
-		transition: 0.3s;
-		cursor: pointer;
-		font-size: 10vmin;
-	}
+    .clickable {
+        margin: 0;
+        width: 100%;
+        min-height: inherit;
+        border-style: double;
+        transition: 0.3s;
+        cursor: pointer;
+        font-size: 10vmin;
+        max-height: 100vh;
+    }
 
 	/* Change background color of buttons on hover */
 	button:hover {
@@ -62,7 +65,7 @@
 		messages[20] = "Fingers and toes.";
 		messages[21] = "What's 9 + 10?";
 		messages[22] = "2/22/22, 22:22 at exactly 22 seconds. Best second of my life. 22/22";
-		messages[23] = "ft. Miley Cyrus, Wiz Khalifa, Juicy J.  <i>This song sucks.</i>;
+		messages[23] = "ft. Miley Cyrus, Wiz Khalifa, Juicy J.  <i>This song sucks.</i>";
 		messages[24] = "Clicking for days on end";
 		messages[25] = "50 / 2 = 25";
 		messages[26] = "Not a square, nor a cube.";
@@ -135,7 +138,10 @@
 		messages[93] = "Not so friendly";
 		messages[94] = "Andromeda";
 		messages[95] = "I am speed.";
-		messages[96] = "Up and down and all around"; // Fish-eye filter
+        messages[96] = "Up and down and all around"; // Fish-eye filter
+        for (var i = 0; i < 15; i++) {
+			messages[96] += " and up and down and all around";
+        }
 		messages[97] = "Bösendorfer";
 		messages[98] = "98 degrees? Pretty funkin hot.";
 		messages[99] = "I wonder how long you've been playing?";
@@ -175,7 +181,7 @@
 		messages[133] = "...";
 		messages[134] = "...";
 		messages[135] = "...";
-		messages[136] = "Give thanks to the Lord, for he is good, NOT!"; // Make "NOT!" shake, slightly tilted, and be red
+        messages[136] = "Give thanks to the Lord, for he is good... <div style=\"transform:rotate(-10deg); color:red; font-weight: bold;\">NOT!</div>"; // Shaky text?
 		messages[137] = "Absorb those Photons girl!";
 		messages[138] = "Drunk and Disorderly conduct is very sexy.";
 		messages[139] = "Thanks a hundred";
