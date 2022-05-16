@@ -7,6 +7,11 @@ fetch("./clicker.json").then(response => {
 	messages = response.json();
 });
 
+messages[96] = "Up and down and all around"; // Fish-eye filter
+for (var i = 0; i < 15; i++) {
+	messages[96] += " and up and down and all around";
+}
+
 renderClicks();
 
 function doClick() {
