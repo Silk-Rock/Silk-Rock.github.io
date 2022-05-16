@@ -1,11 +1,15 @@
 ﻿var clicks = 0;
 checkCookie();
-// var messages = new Array();
-var messages;//  = fetch('./clicker.json');
-
+var messages = new Array();
+// var messages;//  = fetch('./clicker.json');
+var json;
 fetch("./clicker.json").then(response => {
-	messages = response.json();
+	json = response.json();
 });
+
+for (var i in json) {
+	messages[i] = json[i];
+}
 
 messages[96] = "Up and down and all around"; // Fish-eye filter
 for (var i = 0; i < 15; i++) {
