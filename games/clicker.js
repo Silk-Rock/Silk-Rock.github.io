@@ -49,6 +49,14 @@ function renderClicks() {
 		document.getElementById("button").style.color = "red";
 		document.getElementById("button").style.backgroundColor = "black";
 	}
+
+	if (clicks == 2047) {
+		delay(500).then(() => { document.getElementById("button").innerHTML = "Message not found"; })
+    }
+}
+
+function delay(time) {
+	return new Promise(resolve => setTimeout(resolve, time));
 }
 
 function setCookie(cname, cvalue, exdays) {
