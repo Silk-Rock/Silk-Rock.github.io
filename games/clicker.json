@@ -185,6 +185,8 @@
   "205": "...",
   "206": "Mr. Bones' Wild Ride",
 
+  "217": "<a href=\"https://oeis.org/A000217\">Silk Clicker is not the OEIS, North.</a>",
+   
   "224": "Gone quite pear-shaped",
   "225": "...",
   "226": "My teeth are falling out",
@@ -196,13 +198,13 @@
   "251": "New-Newfangled Pokemans",
 
   "255": "8-bit extravaganza",
-  "256": "8-bit extravaganza (for non-programmers)",
+  "256": "8-bit extravaganza (arguably superior indexing)",
 
   "265": "Fishy ratios",
 
   "270": "Baby bones",
 
-  "282": "Do not search its name",
+  "282": "Gardevoir used Attract!",
 
   "296": "++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.",
 
@@ -236,7 +238,11 @@
   "451": "The temperature at which this game burns",
 
   "500": "Not my server, not my problem.",
-
+   
+  "512": "Hemidemisemihemidemisemiquaver",
+   
+  "523": "Mike Echo Tango Alfa Papa Romeo India Mike Echo",
+   
   "546": "Write in me, I know you wanna",
 
   "555": "Good timing",
@@ -255,7 +261,7 @@
   "663": "Sunday",
   "664": "Tijuana, Hell.",
   "665": "",
-  "666": "HELL SHALL RAIN UPON THYNE BROWSER",
+  "666": "The 666th Pokémon is a <a href=\"https://bulbapedia.bulbagarden.net/wiki/Vivillon_(Pok%C3%A9mon)\">butterfly.</a>",
   "667": "",
   "668": "",
   "669": "",
@@ -353,6 +359,8 @@
 
   "3600": "How many seconds in an hour? Ten circles.",
 
+  "4096": "<div style=\"color:gold\">You found a shiny Message!</div>",
+   
   "9000": "",
   "9001": "",
 
