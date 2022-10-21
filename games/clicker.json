@@ -2,8 +2,9 @@
   "0": "We all have to start somewhere. (Click me)",
   "1": "One small step for man, one tiny click for mousekind.",
   "2": "The power of Two",
+  "2.5": "How did you find me?",
   "3": "Two steps forward, one step... forward.",
-  "4": "My favorite Bloons map is Quad",
+  "4": "Unlucky in some cases.",
   "5": "If two's company, then seven's a fifth.",
   "6": "Friend of a friend of a friend of a friend...",
   "7": "There's a penny in my clover.",
@@ -411,4 +412,6 @@
   "10000000024": "In 3, 2, 1... GO!",
   "10000000025": "<a href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\">Here it is!</a>",
   "10000000026": "Gottem."
+   
+  "Infinity": "Bounds are known to none."
 }
