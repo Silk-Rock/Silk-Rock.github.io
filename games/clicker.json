@@ -1,4 +1,6 @@
 ﻿{
+  "-11": "Eleven Eleven year old Elvish Elevated Elves eat Eleven Apples";
+  "-3": "Two steps forward, six steps... backward?"
   "-2": "A power's absolute value.",
   "-1": ".dnikesuom rof kcilc ynit eno ,nam rof pets llams enO",
   "0": "We all have to start somewhere. (Click me)",
@@ -13,7 +15,7 @@
   "8": "Two to the third.",
   "9": "Nien",
   "10": "Ben 10.",
-  "11": "Eleven Eleven year old Elvish Elevated Elves eat Eleven Apples",
+  "11": "Endleofan",
   "12": "ETAOIN SHRDLU",
   "13": "There's a black cat in my broken mirror.",
   "14": "There's a gold in my horseshoe.",
@@ -175,13 +177,16 @@
   "171": "You'd be a fool",
   "172": "Cool Plane",
   "173": "<i>DONT BLINK.</i>",
-  "175": "That's a nice ventriloquist dummy you got there."
-
+  "175": "That's a nice ventriloquist dummy you got there.",
+  "176": "...",
+  "177": "...",
+  "178": "...",
+  "179": "Fourty Thousand Kilometers.",
   "180": "Spin me right round baby...",
-
+  "181": "...",
   "182": "In a Blink of the eye...",
 
-  "200": "",
+  "200": "I'm unprimeable.",
   "201": "...",
   "202": "...",
   "203": "...",
@@ -199,9 +204,11 @@
 
   "247": "Every day of the week.",
 
+  "250": "You're an idiot",
   "251": "New-Newfangled Pokemans",
   "252": "252/4/252",
-   
+  "253": "...",
+  "254": "...",
   "255": "8-bit extravaganza",
   "256": "8-bit extravaganza (arguably superior indexing)",
 
