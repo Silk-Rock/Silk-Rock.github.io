@@ -40,6 +40,13 @@ h2 {
 	text-align: center;
 }
 
+.subheading {
+	font-style: italic;
+	text-align: center;
+	color: lightslategray;
+	padding-top: 0;
+}
+
 a:link {
 	color: orange;
 }
