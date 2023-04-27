@@ -18,7 +18,7 @@
   "11": "Endleofan",
   "12": "ETAOIN SHRDLU",
   "13": "There's a black cat in my broken mirror.",
-  "14": "There's a gold in my horseshoe.",
+  "14": "There's a gold coin in my horseshoe.",
   "15": "Judgment Day's Eve",
   "16": "1.77 to 1",
   "17": "The least random number",
@@ -194,8 +194,8 @@
   "205": "...",
   "206": "Mr. Bones' Wild Ride",
 
-  "217": "<a href=\"https://oeis.org/A000217\">Silk Clicker is not the OEIS, North.</a>",
-   
+  "217": "<a href=\"https://oeis.org/A000217\">Silk Clicker is not the OEIS, Nina.</a>",
+
   "224": "Gone quite pear-shaped",
   "225": "The planet just above.",
   "226": "My teeth are falling out",
@@ -224,10 +224,10 @@
 
   "303": "One Corrosive Bassline",
 
-  "314": "Tastes like pie",
+  "314": "Particularly round obstetrician",
 
   "343": "God.",
-   
+
   "360": "The Xbox 360 truly was nostalgic",
   "361": "Haha just kidding, <b>CIRCLE.</b>",
   "362": "...",
@@ -246,8 +246,8 @@
 
   "420": "80 degrees above a full rotation",
   "421": "Nah just kidding 🌿🌿🌿",
-  "422": "UNPROCCESSABLE ENTITY, PLEASE FILL IN THE PASSWORD FIELD TO CONTINUE", 
-   
+  "422": "UNPROCCESSABLE ENTITY, PLEASE FILL IN THE PASSWORD FIELD TO CONTINUE",
+
   "428": "It kicks with its graceful legs",
 
   "432": "Hipster frequency",
@@ -257,20 +257,22 @@
   "451": "The temperature at which this game burns",
 
   "500": "Not my server, not my problem.",
-   
+
   "508": "We need a little more Cowbell.",
   "509": "Snowmobiles are really Cool.",
   "510": "...",
   "511": "...",
   "512": "Hemidemisemihemidemisemiquaver",
-   
+
   "523": "Mike Echo Tango Alfa Papa Romeo India Mike Echo",
-   
+
   "546": "Write in me, I know you wanna",
 
   "555": "Good timing",
 
   "571": "They serve nuclear subs at Subway?",
+
+  "573": "",
 
   "575": "Whoa, five hundred and</b>Seventy five is the most</b>Poetic number",
 
@@ -279,7 +281,7 @@
   "602": "Ivan wants to talk",
 
   "621": "His name is uwu xd Nya, he is a furry femboy imposter that sucks toes",
-   
+
   "660": "",
   "661": "",
   "662": "KROMER????",
@@ -332,6 +334,8 @@
 
   "754": "1.000000000002",
 
+  "765": "('< . . . o",
+
   "777": "<a href=\"https://www.youtube.com/watch?v=ojq3xqfRF6I\">Not a Chansey!</a>",
 
   "800": "",
@@ -340,14 +344,19 @@
 
   "808": "Hip hop beats",
 
+  "888": "The <i>real</i> funny number.",
+
+  "893": "Dame Da Ne",
+
   "909": "House groove",
 
   "911": "Help me!",
 
+  "997": "Normal, at least most of the time.",
   "998": "What's 1 over 998001?",
   "999": "999 Damage",
   "1000": "",
-   
+
   "1026": "Stop stalling!",
 
   "1370": "I will pester you for days on end",
@@ -387,10 +396,10 @@
 
   "3008": "Ikea is awesome",
 
-  "3600": "How many seconds in an hour? Ten circles.",
+  "3600": "Ten seconds, circles in an hour",
 
   "4096": "<div style=\"color:gold\">You found a shiny Message!</div>",
-   
+
   "9000": "",
   "9001": "",
 
@@ -427,6 +436,6 @@
   "10000000024": "In 3, 2, 1... GO!",
   "10000000025": "<a href=\"https://www.youtube.com/watch?v=dQw4w9WgXcQ\">Here it is!</a>",
   "10000000026": "Gottem.",
-   
+
   "Infinity": "Bounds are known to none."
 }
