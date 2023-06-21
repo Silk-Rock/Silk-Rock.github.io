@@ -27,9 +27,25 @@ header {
 	height: fit-content;
 }
 
-.logoScaleable {
+.logo {
 	max-width: 100%;
-	width: inherit
+	max-height: min-content;
+	display: inline;
+}
+
+.logoSmall {
+	max-width: 100%;
+	max-height: min-content;
+	display: none;
+}
+
+@media screen and (max-width: 800px) {
+	.logo {
+		display: none;
+	}
+	.logoSmall {
+		display: inline;
+	}
 }
 
 article {
