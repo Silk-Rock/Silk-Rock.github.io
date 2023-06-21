@@ -16,16 +16,20 @@ body {
 
 header {
 	font-style: italic;
-	width: stretch;
 	text-align: left;
 	background-color: white;
-	padding-left: 20px;
+	padding-inline: 20px;
 	padding-top: 12px;
 }
 
 .banner {
-	width: 800px;
-	height: 200px;
+	width: 100%;
+	height: fit-content;
+}
+
+.logoScaleable {
+	max-width: 100%;
+	width: inherit
 }
 
 article {
@@ -74,7 +78,6 @@ hr {
 @media only screen and (max-width: 1200px) {
 	.galleryBox {
 		width: 40%;
-		margin: 0 6px;
 	}
 }
 
