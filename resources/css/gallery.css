@@ -23,7 +23,7 @@
 .galleryPopupBody {
     text-align: left;
     overflow-y: auto;
-    width: calc(50% - 20px);
+    width: calc(49.999% - 20px);
     margin-left: 10px;
     margin-right: 10px;
     float: inline-end;
@@ -65,6 +65,7 @@
     padding: 0 6px;
     transition: all 0.3s ease;
     cursor: pointer;
+    aspect-ratio: 2 / 3;
 }
 
 .galleryBox:hover {
