@@ -23,10 +23,10 @@
 .galleryPopupBody {
     text-align: left;
     overflow-y: auto;
-    width: calc(49.999% - 20px);
+    width: calc(50% - 20px);
     margin-left: 10px;
     margin-right: 10px;
-    float: inline-end;
+    float: right;
     height: calc(100% - 100px);
 }
 
