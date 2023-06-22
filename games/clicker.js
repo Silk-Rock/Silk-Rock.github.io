@@ -32,6 +32,7 @@ function doClick() {
 	document.cookie = "clicks=" + clicks + ";" + expires + ";";
 }
 
+
 function renderClicks() {
 	document.getElementById("button").innerHTML = "<p>" + clicks + "</p>";
 	if (messages[clicks]) {
@@ -39,6 +40,19 @@ function renderClicks() {
 	}
 	else {
 		document.getElementById("button").innerHTML += "...";
+	}
+
+	if (clicks == 236) {
+		var hadokenState = 0
+		var hadoken = setInterval(function () {
+			if (clicks == 236) {
+				hadokenState = (hadokenState + 1) % 3
+				document.getElementById("button").innerHTML = "<p>236</p><p>" + { 0: ">o", 1: "-=o", 2: "&lt;o" }[hadokenState] + "</p>";
+			}
+			else {
+				clearInterval(hadoken)
+			}
+		}, 200)
 	}
 
 	if (clicks >= 671) {
