@@ -5,11 +5,72 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Silk Rock Games - Fakemon</title>
 	<link rel="stylesheet" type="text/css" href="./resources/css/style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="./resources/css/gallery.css" media="screen" />
+	<script src="./resources/scripts/gallery.js"></script>
 </head>
 <body>
 	<header html-include="header"></header>
 	<div class="return"><a href="./index.html">&lArr; Return home</a></div>
 	<article>
+		<div id="popupGabbunel" class="galleryPopupBg" onclick="closePopup('Gabbunel')">
+			<div class="galleryPopup">
+				<h1>Gabbunel</h1>
+				<h2>Author: Rebmiami</h2>
+				<div class="galleryPopupBody">
+					<img src="./resources/img/png/fakemon1/gabbunel.png" />
+				</div>
+				<div class="galleryPopupBody">
+					<p><b>Type</b>: Normal/Fire</p>
+					<p><b>Category</b>: Rave Pokémon</p>
+					<p>
+						<b>Abilities</b>:
+						<ul>
+							<li>Soundproof</li>
+							<li>Intimidate</li>
+							<li>Up To Eleven (all sound-based moves gain +1 priority)</li>
+						</ul>
+					<p><b>Pokedex Entries</b>: Gabbunel loudly bang on their drum-like tail with their spiked arms whenever they can. Many Trainers avoid this Pokémon, as they see it as a nuisance, but some enjoy the loud music it creates. / A now-famous DJ started their career by enlisting the help of a Gabbunel. Since then, this Pokémon has become a common sight in dance parties across the region.</p>
+					<p><b>Signature Moves</b>:</p>
+					<ul>
+						<li>Filter Sweep: (normal, sound move) The user filters the frequencies on the battlefield, swapping stat changes with the opponent.</li>
+						<li>Rave Stab: (fire, sound move) The user launches a piercing burst of sound that deals damage, burns the target, and has a 30% chance to flinch.</li>
+					</ul>
+					<p><b>Pre-Evolutions:</b></p>
+
+					<h>	(Second Stage)</h>
+					<p><b>Name</b>: Hoovel</p>
+					<p><b>Type</b>: Normal/Fire</p>
+					<p><b>Category</b>: Rave Pokémon</p>
+					<p><b>Pokedex Entries</b>: The rectangular scales at the end of a Hoovel's tail resonate at certain frequencies when struck. The vibrations travel through its tail and emit a loud sound from the ring on its chest. / This Pokémon can often be found playing music for groups of Ravel. The Hoovel who play the catchiest melodies are regarded as the leader of the pack.</p>
+
+					<p>(First Stage)</p>
+					<p><b>Name</b>: Ravel</p>
+					<p><b>Type</b>: Normal</p>
+					<p><b>Category</b>: Rave Pokémon</p>
+					<p><b>Pokedex Entries</b>: Wild Ravel travel in tightly-knit groups. When one Ravel decides to do something, the rest often follow, even if bad things happen as a result. / Ravel have deep respect for musical talent. If a Trainer can impress a Ravel with musical skill, this Pokémon will stay by their side no matter what.</p>
+				</div>
+			</div>
+		</div>
+		<div id="popupElemikyu" class="galleryPopupBg" onclick="closePopup('Elemikyu')">
+			<div class="galleryPopup">
+				<p>Grello!</p>
+			</div>
+		</div>
+		<div id="popupMusguchillo" class="galleryPopupBg" onclick="closePopup('Musguchillo')">
+			<div class="galleryPopup">
+				<p>Grello!</p>
+			</div>
+		</div>
+		<div id="popupMillitrain" class="galleryPopupBg" onclick="closePopup('Millitrain')">
+			<div class="galleryPopup">
+				<p>Grello!</p>
+			</div>
+		</div>
+		<div id="popupSobrancelhan" class="galleryPopupBg" onclick="closePopup('Sobrancelhan')">
+			<div class="galleryPopup">
+				<p>Grello!</p>
+			</div>
+		</div>
 		<h1>Fakemon</h1>
 		<div class="under-construction"> <p>This page is currently under construction. Can you fetch me the spanner?</p> </div>
 
@@ -19,50 +80,62 @@
 		<h2>Round 1</h2>
 		<div class="subheading">(Nov. 11 - Dec. 5, 2022)</div>
 		<div class="gallery">
-			<div class="galleryBox">
+			<div class="galleryBox" onclick="openPopup('Gabbunel')">
 				<div class="galleryText">
-					<h2>1st Place</h2>
+					<h2>1st Place (tie)</h2>
 				</div>
-				<img src="https://cheese.com/media/img/cheese/Camembert.jpg" width="300" height="300" />
+				<img src="./resources/img/png/fakemon1/gabbunel.png" width="300" height="300" />
 				<div class="galleryText">
-					<h2>TEST 1</h2>
-					<p>Author: 123</p>
+					<h2>Gabbunel</h2>
+					<p>Author: Rebmiami</p>
 					<p>Info 1: Very cool</p>
 					<p>Info 1: Tastes like chicken</p>
 				</div>
 			</div>
-			<div class="galleryBox">
+			<div class="galleryBox" onclick="openPopup('Elemikyu')">
 				<div class="galleryText">
-					<h2>2nd Place</h2>
+					<h2>1st Place (tie)</h2>
 				</div>
-				<img src="https://cheese.com/media/img/cheese/stilton_.jpg" width="300" height="300" />
+				<img src="./resources/img/png/fakemon1/elemikyu-1.png" width="300" height="300" />
 				<div class="galleryText">
-					<h2>TEST 2</h2>
-					<p>Author: 123</p>
+					<h2>Elemikyu</h2>
+					<p>Author: Ninanite</p>
 					<p>Info 1: Very cool</p>
 					<p>Info 1: Tastes like grapefruit</p>
 				</div>
 			</div>
-			<div class="galleryBox">
+			<div class="galleryBox" onclick="openPopup('Musguchillo')">
 				<div class="galleryText">
 					<h2>3rd Place</h2>
 				</div>
-				<img src="https://cheese.com/media/img/cheese/wiki/swiss.jpg" width="300" height="300" />
+				<img src="./resources/img/png/fakemon1/musguchillo.png" width="300" height="300" />
 				<div class="galleryText">
-					<h2>TEST 3</h2>
-					<p>Author: 123</p>
+					<h2>Musguchillo</h2>
+					<p>Author: ChefCursedCrust</p>
 					<p>Info 1: Very cool</p>
 					<p>Info 1: Tastes like raw aluminum</p>
 				</div>
 			</div>
-			<div class="galleryBox">
+			<div class="galleryBox" onclick="openPopup('Millitrain')">
 				<div class="galleryText">
 					<h2>4th Place</h2>
 				</div>
-				<img src="https://cheese.com/media/img/cheese/Raclette.jpg" width="300" height="300" />
+				<img src="./resources/img/png/fakemon1/millitrain.png" width="300" height="300" />
 				<div class="galleryText">
-					<h2>TEST 4</h2>
-					<p>Author: 123</p>
+					<h2>Millitrain</h2>
+					<p>Author: Goombud</p>
+					<p>Info 1: Very cool</p>
+					<p>Info 1: Tastes like gummy worms</p>
+				</div>
+			</div>
+			<div class="galleryBox" onclick="openPopup('Sobrancelhan')">
+				<div class="galleryText">
+					<h2>5th Place</h2>
+				</div>
+				<img src="./resources/img/png/fakemon1/sobrancelhan.png" width="300" height="300" />
+				<div class="galleryText">
+					<h2>Sobrancelhan</h2>
+					<p>Author: Paperboi64</p>
 					<p>Info 1: Very cool</p>
 					<p>Info 1: Tastes like gummy worms</p>
 				</div>

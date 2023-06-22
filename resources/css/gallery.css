@@ -1,0 +1,94 @@
+.galleryPopupBg {
+    background-color: #0007;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 30px 60px 60px 30px;
+    transition: all 0.2s;
+    opacity: 0;
+    visibility: hidden
+}
+
+.galleryPopup {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    padding: 15px;
+    color: black;
+}
+
+.galleryPopupBody {
+    text-align: left;
+    overflow-y: auto;
+    width: calc(50% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    float: inline-end;
+    height: calc(100% - 100px);
+}
+
+.galleryPopup img {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .galleryPopupBody {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        overflow-y: unset;
+        height: fit-content;
+    }
+
+    .galleryPopup {
+        overflow-y: auto;
+    }
+}
+
+.gallery {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galleryBox {
+    margin: 5px;
+    border: 2px solid white;
+    float: left;
+    width: 20%;
+    padding: 0 6px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.galleryBox:hover {
+    background-color: #FFF5;
+    transition: none;
+}
+
+.galleryBox img {
+    width: 100%;
+    height: 40%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .galleryBox {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .galleryBox {
+        width: 80%;
+    }
+}
+
+.galleryDesc {
+    text-align: center;
+}

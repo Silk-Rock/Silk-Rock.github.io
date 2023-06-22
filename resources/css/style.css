@@ -58,6 +58,7 @@ h1 {
 
 h2 {
 	text-align: center;
+	font-size: 16px;
 }
 
 hr {
@@ -69,42 +70,6 @@ hr {
 	text-align: center;
 	color: lightslategray;
 	padding-top: 0;
-}
-
-.gallery {
-	justify-content: center;
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.galleryBox {
-	margin: 5px;
-	border: 2px solid white;
-	float: left;
-	width: 20%;
-	padding: 0 6px;
-}
-
-.galleryBox img {
-	width: 100%;
-	height: 40%;
-}
-
-@media only screen and (max-width: 1200px) {
-	.galleryBox {
-		width: 40%;
-	}
-}
-
-@media only screen and (max-width: 600px) {
-	.galleryBox {
-		width: 80%;
-	}
-}
-
-.galleryDesc {
-	text-align: center;
 }
 
 a:link {
