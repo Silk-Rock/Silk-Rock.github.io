@@ -11,7 +11,6 @@ body {
 
 .return {
 	margin-left: 40px;
-	font-style: italic;
 }
 
 header {
@@ -72,16 +71,27 @@ hr {
 	padding-top: 0;
 }
 
-a:link {
-	color: orange;
+a {
+	color: white;
+	transition: all 0.2s ease;
+	border-radius: 2px;
+	text-decoration-thickness: 0.1em;
+	text-underline-offset: 0.1em;
+	text-decoration-skip-ink: none;
+	overflow: clip;
 }
 
+	a:hover {
+		text-decoration-thickness: 110%;
+		text-underline-offset: calc(-110% + 0.25em);
+		text-decoration-color: white;
+		color: #1e88e5
+	}
+
 /* visited link */
-a:visited {
-	color: orangered;
-}
+	a:visited {
+	}
 
 /* selected link */
 a:active {
-	color: rebeccapurple;
 }
