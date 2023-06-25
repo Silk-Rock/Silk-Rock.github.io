@@ -73,17 +73,16 @@ hr {
 
 a {
 	color: white;
-	transition: all 0.2s ease;
+	transition: all 0.4s cubic-bezier(0.82, -0.65, 0, 1.9);
 	border-radius: 2px;
 	text-decoration-thickness: 0.1em;
 	text-underline-offset: 0.1em;
 	text-decoration-skip-ink: none;
-	overflow: clip;
 }
 
 	a:hover {
 		text-decoration-thickness: 110%;
-		text-underline-offset: calc(-110% + 0.25em);
+		text-underline-offset: -0.9em;
 		text-decoration-color: white;
 		color: #1e88e5
 	}
