@@ -30,9 +30,16 @@
     height: calc(100% - 100px);
 }
 
+.subgallery {
+    overflow-y: unset;
+    float: right;
+    height: fit-content;
+}
+
 .galleryPopup img {
     width: 100%;
     height: auto;
+    padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 600px) {
