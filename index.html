@@ -59,6 +59,16 @@
           games and occasionally host contests, such as
           <a href="./fakemon.html">Fakemon Design</a>.
         </p>
+        <p id="widgetLink"><a href="#discord" onclick="displayWidget()">Click this to see a list of currently active members</a></p>
+        <div id="widget">
+
+        </div>
+        <script>
+          function displayWidget() {
+            document.getElementById("widget").innerHTML = '<iframe src="https://discord.com/widget?id=827959800746344489&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>'
+            document.getElementById("widgetLink").style = 'display: none'
+          };
+        </script>
       </div>
       <br />
     </article>
