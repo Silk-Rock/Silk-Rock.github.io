@@ -1,78 +1,114 @@
-﻿<!DOCTYPE html>
+﻿<!doctype html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Silk Rock Games</title>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="./resources/css/style.css"
-      media="screen"
-    />
-  </head>
-  <body>
-    <header html-include="header"></header>
-    <article>
-      <h1>Home</h1>
-      <!-- <div class="under-construction"> <p>As you can probably tell, our website is currently under construction. Can you fetch me the spanner?</p> </div> -->
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Silk Rock Games</title>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="./resources/css/style.css"
+            media="screen"
+        />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="./resources/css/gallery.css"
+            media="screen"
+        />
+    </head>
+    <body>
+        <header html-include="header"></header>
+        <article>
+            <h1>Home</h1>
+            <!-- <div class="under-construction"> <p>As you can probably tell, our website is currently under construction. Can you fetch me the spanner?</p> </div> -->
 
-      <p>
-        We are Silk Rock Games, a small game development studio who creates fun
-        homemade gaming experiences.
-      </p>
+            <p>
+                We are Silk Rock Games, a small game development studio who
+                creates fun homemade gaming experiences.
+            </p>
 
-      <div class="textbox">
-        <h2>Web Games</h2>
-        <p>
-          These are simple and fun games that you can play directly from this
-          website!
-        </p>
-        <p>
-          Play <a href="./games/clicker.html">Silk Clicker</a>, a unique
-          incremental game with countless achievements.
-        </p>
-      </div>
-      <br />
-      <div class="textbox">
-        <h2>Software</h2>
-        <p>Nothing here yet.</p>
-      </div>
+            <div class="textbox">
+                <h1>Silk Rock Projects</h1>
 
-      <br />
+                <div class="gallery">
+                    <div class="galleryBox galleryBoxSmall">
+                        <a href="pbf.html" style="all: unset; height: 100%">
+                            <div class="galleryText">
+                                <!--<h2>Polandball Fónkin</h2>-->
+                                <!--<p>
+                                A ballin Friday Night Funkin Mod about
+                                Countryballs, and the community around them.
+                                Made by Fónkin Team
+                            </p>-->
+                            </div>
+                            <img
+                                src="./resources/img/png/pbf/PROMO_Poster.png"
+                            />
+                            <div class="galleryText">
+                                <h2>Click here to learn more!</h2>
+                            </div>
+                        </a>
+                    </div>
 
-      <div class="textbox">
-        <h2>Our Team</h2>
-        <p>
-          See the members of our team and links to their creations
-          <a href="./team.html">here</a>.
-        </p>
-      </div>
+                    <div class="galleryBox galleryBoxSmall">
+                        <a
+                            href="games/clicker.html"
+                            style="all: unset; height: 100%"
+                        >
+                            <div class="galleryText">
+                                <h2>Silk Clicker</h2>
+                                <p>
+                                    A unique incremental game with countless
+                                    achievements that you can play in your
+                                    browser.
+                                </p>
+                                <h2>Click here to play!</h2>
+                            </div>
+                            <div class="galleryText"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-      <br />
+            <br />
 
-      <div class="textbox">
-        <h2>Our Community</h2>
-        <p>
-          Silk Rock has a Discord server, which you can join
-          <a href="https://discord.gg/KgyHZBWm63">here</a>. We have various
-          games and occasionally host contests, such as
-          <a href="./fakemon.html">Fakemon Design</a>.
-        </p>
-        <p id="widgetLink"><a href="#discord" onclick="displayWidget()">Click this to see a list of currently active members</a></p>
-        <div id="widget">
+            <div class="textbox">
+                <h2>Our Team</h2>
+                <p>
+                    See the members of our team and links to their creations
+                    <a href="./team.html">here</a>.
+                </p>
+            </div>
 
-        </div>
-        <script>
-          function displayWidget() {
-            document.getElementById("widget").innerHTML = '<iframe src="https://discord.com/widget?id=827959800746344489&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>'
-            document.getElementById("widgetLink").style = 'display: none'
-          };
-        </script>
-      </div>
-      <br />
-    </article>
-  </body>
+            <br />
+
+            <div class="textbox">
+                <h2>Our Community</h2>
+                <p>
+                    Silk Rock has a Discord server, which you can join
+                    <a href="https://discord.gg/KgyHZBWm63">here</a>. We have
+                    various games and occasionally host contests, such as
+                    <a href="./fakemon.html">Fakemon Design</a>.
+                </p>
+                <p id="widgetLink">
+                    <a href="#discord" onclick="displayWidget()"
+                        >Click this to see a list of currently active members</a
+                    >
+                </p>
+                <div id="widget"></div>
+                <script>
+                    function displayWidget() {
+                        document.getElementById("widget").innerHTML =
+                            '<iframe src="https://discord.com/widget?id=827959800746344489&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>';
+                        document.getElementById("widgetLink").style =
+                            "display: none";
+                    }
+                </script>
+            </div>
+            <br />
+        </article>
+    </body>
 </html>
 <!-- Add this to automatically include headers and footers etc. -->
 <script src="./resources/scripts/includer.js"></script>
