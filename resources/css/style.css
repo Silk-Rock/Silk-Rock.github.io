@@ -31,6 +31,12 @@ body {
     gap: 10px;
 }
 
+.display-grid-big {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+}
+
 /*.display-grid div {
     width: 100px;
 }*/
